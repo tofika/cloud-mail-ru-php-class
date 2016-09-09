@@ -181,7 +181,7 @@ class CMR
             if( !$response) return false;
             $url = $this -> cloud_domain.$response;
         }
-       
+
         print_r( "get_url = $url\n");
         print_r( "local_filename = $local_filename\n");
 
@@ -477,7 +477,7 @@ class CMR
             if( !$response) return false;
             $url = $this -> cloud_domain.$response;
         }
-       
+
         print_r( "get_url = $url\n");
         print_r( "local_filename = $local_filename\n");
 
@@ -590,4 +590,3 @@ class CMR
     //TODO for test, del in prod
 }
 ?>
-
